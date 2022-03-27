@@ -28,7 +28,7 @@ void addMid(int val, int index) {
 	newNode->value = val;
 	cur = head;
 	int count = 1;
-	while(count < index) {
+	while(count < index-1) {
 		cur = cur->next;
 		count++;
 	}
